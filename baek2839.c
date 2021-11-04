@@ -2,7 +2,7 @@
 #include <string.h>
 #define min(a,b)  (((a) < (b)) ? (a) : (b))
 
-int DP[5000];
+int DP[5001];
 
 int sugar(int n){
     if(n == 0) return DP[n] = 0;//n이 0이라면 0을 DP[0]에 넣고 해당 DP값을 리턴한다.
